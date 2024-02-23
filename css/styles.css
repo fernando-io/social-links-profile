@@ -1,13 +1,15 @@
 html {
     background-color: black;
     color: #fff;
+    font-family: 'Inter-Bold';
 }
 
 body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: #1f1f1f;
-    margin: 175px 528px;
-    height: 611px;
-    width: 384px;
     padding: 40px;
     border-radius: 12px;
     text-align: center;
@@ -17,40 +19,39 @@ section {
     margin-bottom: 24px;
 }
 
-.name-location .name {
-    font-size: 24px;
-    margin-bottom: 4px;
-}
-
-.name-location .location {
-    font-size: 14px;
-    color: #C4F82A;
-}
-
-.links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
-    margin: 0 40px;
-
-}
-
-.links button{
-    height: 45px;
-    width: 304px;
-}
-
 .profile-pic img {
     height: 88px;
     border-radius: 999px;
 }
 
-.attribution {
+.name-location .name {
     margin-bottom: 0;
-    font-size: 12px;
 }
 
-.attribution a {
-    color: hsl(228, 53%, 62%);
+.name-location .location {
+    font-size: 14px;
+    color: #C4F82A;
+    margin-top: 8px;
+}
+
+.bio {
+    font-family: 'Inter-Regular';
+    font-size: 14px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 0;
+}
+
+.links button {
+    font-family: 'Inter-Bold';
+    border: none;
+    background-color: #333333;
+    color: #fff;
+    width: 304px;
+    padding: 12px;
+    border-radius: 8px;
 }
