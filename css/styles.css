@@ -11,15 +11,16 @@ body {
     height: 100vh;
 }
 
+div {
+    margin-bottom: 24px;
+}
+
 .container {
     background-color: #1F1F1F;
     padding: 40px;
     border-radius: 12px;
     text-align: center;
-}
-
-section {
-    margin-bottom: 24px;
+    margin-bottom: 0;
 }
 
 .profile-pic img {
@@ -28,6 +29,7 @@ section {
 }
 
 .name-location .name {
+    font-size: 24px;
     margin-bottom: 0;
 }
 
