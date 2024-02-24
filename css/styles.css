@@ -1,5 +1,5 @@
 html {
-    background-color: black;
+    background-color: hsl(0, 0%, 8%);
     color: #fff;
     font-family: 'Inter-Bold';
 }
@@ -9,7 +9,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #1f1f1f;
+    background-color: #1F1F1F;
     padding: 40px;
     border-radius: 12px;
     text-align: center;
@@ -54,4 +54,9 @@ section {
     width: 304px;
     padding: 12px;
     border-radius: 8px;
+}
+
+button:hover {
+    background-color: #C4F82A;
+    color: black;
 }

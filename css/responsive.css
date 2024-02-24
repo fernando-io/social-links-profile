@@ -1,0 +1,10 @@
+@media (min-width: 420px) {
+    body {
+        padding: 24px;
+    }
+
+    .links button {
+        width: 279px;
+    }
+}
+
